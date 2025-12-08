@@ -1,7 +1,0 @@
-[35mREADME.md[m[36m:[m[32m72[m[36m:[m[1;31mOPENAI_API_KEY[m=YOUR_[1;31mOPENAI_API_KEY[m_HERE
-Binary file [35mbackend/__pycache__/llm_extractor.cpython-314.pyc[m matches
-[35mbackend/llm_extractor.py[m[36m:[m[32m12[m[36m:[mapi_key = os.getenv("[1;31mOPENAI_API_KEY[m")
-[35mbackend/llm_extractor.py[m[36m:[m[32m14[m[36m:[m    raise ValueError("[1;31mOPENAI_API_KEY[m is missing. Check your .env file.")
-[35mbackend/scripts/test_key.py[m[36m:[m[32m7[m[36m:[mkey = os.getenv("[1;31mOPENAI_API_KEY[m")
-[35mbackend/scripts/test_key.py[m[36m:[m[32m9[m[36m:[m    print("❌ ERROR: [1;31mOPENAI_API_KEY[m not found.")
-[35mbackend/scripts/test_key.py[m[36m:[m[32m11[m[36m:[m    print("[1;31mOPENAI_API_KEY[m=your_key_here")
