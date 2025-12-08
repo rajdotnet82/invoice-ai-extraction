@@ -1,0 +1,64 @@
+# =========================
+# Root .gitignore
+# For Invoice AI Extraction
+# =========================
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# --- Logs ---
+*.log
+
+# -------------------------
+# Backend (Python / Flask)
+# -------------------------
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets
+backend/.env
+.env
+
+# Runtime uploads (keep folder, ignore contents)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# If you generate local-only Excel copies, add patterns like:
+# backend/data/*_demo.xlsx
+# backend/data/*_small.xlsx
+
+# -------------------------
+# Frontend (Next.js)
+# -------------------------
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Local env
+frontend/.env.local
+frontend/.env
+
+# -------------------------
+# Misc
+# -------------------------
+coverage/
